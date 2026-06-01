@@ -26,9 +26,11 @@ Operating principle is consistent across all of it: correctness first, maintaina
 
 Agentic development workflows in serious engineering organizations. Specifically, how teams that ship financial infrastructure can use AI agents as real contributors without losing the rigor that the domain demands.
 
-I am building this in two places at once. Inside the company I lead, where the bar is production and the stakes are real. And on three personal products that double as a sandbox for the same workflows under conditions I fully control.
+I am building this in two places at once. Inside the company I lead, where the bar is production and the stakes are real. And on four personal products that double as a sandbox for the same workflows under conditions I fully control.
 
 ## Products I have built recently
+
+[**ScreenshotOCR**](https://github.com/athlonUA/ScreenshotOCR): macOS menu bar app that captures a screen region or a file and extracts the text with Apple Vision Framework. English, Spanish, Ukrainian. SwiftUI, ScreenCaptureKit, fully local — no network, no LLM, no third-party dependencies.
 
 [**Transcribr**](https://github.com/athlonUA/Transcribr): macOS menu bar app that captures mic and full system audio into a single file and pipes it through Whisper. SwiftUI, ScreenCaptureKit, real-time audio mixing at 48 kHz.
 
