@@ -26,9 +26,11 @@ Operating principle is consistent across all of it: correctness first, maintaina
 
 Agentic development workflows in serious engineering organizations. Specifically, how teams that ship financial infrastructure can use AI agents as real contributors without losing the rigor that the domain demands.
 
-I am building this in two places at once. Inside the company I lead, where the bar is production and the stakes are real. And on five personal products that double as a sandbox for the same workflows under conditions I fully control.
+I am building this in two places at once. Inside the company I lead, where the bar is production and the stakes are real. And on six personal products that double as a sandbox for the same workflows under conditions I fully control.
 
 ## Products I have built recently
+
+[**MobileTranslate**](https://github.com/athlonUA/MobileTranslate): simple native iOS voice translator. Record audio, transcribe via OpenAI Whisper, correct with GPT, translate with DeepL, speak with iOS speech synthesizer. SwiftUI, iOS 17+, API keys stored in Keychain, no backend, no accounts.
 
 [**QuickTranslate**](https://github.com/athlonUA/QuickTranslate): macOS menu bar app that translates selected text or clipboard contents through the DeepL API via a global hotkey. Auto-detects source language, 27 target languages. SwiftUI, MenuBarExtra, Carbon RegisterEventHotKey so it works without Accessibility permission, Keychain-backed API key, no third-party dependencies.
 
